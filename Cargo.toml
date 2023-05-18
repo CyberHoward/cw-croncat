@@ -32,24 +32,24 @@ license = "MIT OR Apache-2.0"
 
 [workspace.dependencies]
 serde = { version = "1.0" }
-cosmwasm-std = { version = "1.1" }
+cosmwasm-std = { version = "1.2" }
 serde-cw-value = "0.7.0"
 thiserror = { version = "1.0" }
-cosmwasm-schema = { version = "1.1" }
+cosmwasm-schema = { version = "1.2" }
 rusty-hook = "0.11.2"
 #For some reason it tries to deploy cw_core here
 # voting = { version = "0.2.0", default-features = false, git = "https://github.com/DA0-DA0/dao-contracts" }
-cw20 = { version = "0.16.0" }
+cw20 = { version = "1.0.1" }
 cw-multi-test = { version = "0.16.0" }
-cw20-base = { version = "0.16.0" }
+cw20-base = { version = "1.0.1" }
 cw-storage-plus = "1.0.1"
 cron_schedule = "0.2.3"
 cw2 = "1.0.1"
 hex = { version = "0.4", default-features = false }
 sha2 = { version = "0.10.6", default-features = false }
 serde-json-wasm = { version = "0.5.0" }
-cw-utils = "0.16.0"
-cw721 = "0.16.0"
+cw-utils = "1.0.1"
+cw721 = "0.17.0"
 # DAO contracts
 dao-voting = { version = "2.0.0-beta", git = "https://github.com/DA0-DA0/dao-contracts.git" }
 dao-proposal-single = { version = "2.0.0-beta", git = "https://github.com/DA0-DA0/dao-contracts" }
@@ -64,7 +64,7 @@ cw4-group = "1.0.1"
 base64 = "0.13.0"
 serde_json = { version = "1.0" }
 anyhow = "1"
-cw721-base = "0.16.0"
+cw721-base = "0.17.0"
 croncat-agents = { path = "./contracts/croncat-agents" }
 croncat-manager = { path = "./contracts/croncat-manager" }
 croncat-tasks = { path = "./contracts/croncat-tasks" }
@@ -79,4 +79,4 @@ croncat-sdk-tasks = { path = "./packages/croncat-sdk-tasks" }
 mod-sdk = { path = "./packages/mod-sdk" }
 croncat-sdk-factory = { path = "./packages/croncat-sdk-factory" }
 croncat-sdk-manager = { path = "./packages/croncat-sdk-manager" }
-cw-boolean-contract = "0.1.3"
+# cw-boolean-contract = "0.1.3"

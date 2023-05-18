@@ -30,29 +30,29 @@ library = []
 [dependencies]
 cosmwasm-std = { workspace = true, features = ["staking"] }
 cosmwasm-schema = { workspace = true }
-croncat-sdk-manager = { version = "1.0.0" }
-croncat-sdk-agents = { version = "1.0.0" }
-croncat-sdk-tasks = { version = "1.0.0" }
-croncat-sdk-core = { version = "1.0.0" }
+croncat-sdk-manager = { workspace = true }
+croncat-sdk-agents = { workspace = true }
+croncat-sdk-tasks = { workspace = true }
+croncat-sdk-core = { workspace = true }
 cw-utils = { workspace = true }
-croncat-sdk-factory = { version = "1.0.0" }
+croncat-sdk-factory = { workspace = true }
 cw-storage-plus = { workspace = true }
 cw2 = { workspace = true }
 cw20 = { workspace = true }
 thiserror = { workspace = true }
-mod-sdk = { version = "1.0.0" }
+mod-sdk = { workspace = true }
 serde-json-wasm = { workspace = true }
 serde-cw-value = { workspace = true }
 
 [dev-dependencies]
 cw-multi-test = { workspace = true }
 cw20-base = { workspace = true }
-croncat-factory = { version = "1.0.0" }
-croncat-sdk-factory = { version = "1.0.0" }
-croncat-sdk-manager = { version = "1.0.0" }
-croncat-tasks = { version = "1.0.0" }
-croncat-agents = { version = "1.0.0" }
-croncat-mod-balances = { version = "1.0.0" }
-croncat-mod-generic = { version = "1.0.0" }
-cw-boolean-contract = { workspace = true }
+croncat-factory = { workspace = true }
+croncat-sdk-factory = { workspace = true }
+croncat-sdk-manager = { workspace = true }
+croncat-tasks = { workspace = true }
+croncat-agents = { workspace = true }
+croncat-mod-balances = { workspace = true }
+croncat-mod-generic = { workspace = true }
+# cw-boolean-contract = { workspace = true }
 serde_json = { workspace = true }
